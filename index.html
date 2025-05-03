@@ -1,100 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css">
-  <title>IT | Support</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>IT | Support</title>
+  </head>
+  <body>
     <!-- this is nav section -->
     <header class="bg-white dark:bg-[#181C14]">
-      <nav class="container mx-auto relative flex items-center justify-between sm:h-10 md:justify-center py-6 px-4 mt-2 dark:bg-[#181C14]">
-          <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-              <div class="flex items-center justify-between w-full md:w-auto">
-                  <a href="" aria-label="Home">
-                      <img src="src/img/logo.png" class="transition-all duration-300 cursor-pointer:scal" />
-                  </a>
-                  <div class="-mr-2 flex items-center md:hidden">
-                      <button type="button transition-all duration-300 cursor-pointer:scal" id="main-menu" aria-label="Main menu" aria-haspopup="true" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                          <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" class="h-6 w-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                      </button>
-                  </div>
-              </div>
-          </div>
-          <div class="hidden md:flex md:space-x-10 transition-all duration-300 cursor-pointer:scal">
-              <a href="#features"
-                  class="font-medium text-gray-500 hover:text-[#F44335]  ease-in-out dark:text-white transition-all duration-300 cursor-pointer:scal">Home</a>
-              <a href="#pricing"
-                  class="font-medium text-gray-500 hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">About</a>
-              <a href="/blog"
-                  class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">Upskill</a>
-              <a href="https://docs.pingping.io" target="_blank"
-                  class="font-medium text-gray-500 hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">Contact us</a>
-          </div>
-          <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0 gap-3">
-              <span class="inline-flex rounded-md shadow ml-2 gap-4">
-                  <a href="#">
-                      <button class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#C3352A] transition hover:scale-105 hover:translate-x-1">Personalize News</button>
-                  </a>
-              </span>
-              <button id="switch">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8  dark:stroke-white hover:scale-105 transition duration-300 dark:bg-[#181C14] ">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-                    </svg>
+      <nav
+        class="container mx-auto relative flex items-center justify-between sm:h-10 md:justify-center py-6 px-4 mt-2 dark:bg-[#181C14]">
+        <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+          <div class="flex items-center justify-between w-full md:w-auto">
+            <a href="" aria-label="Home">
+              <img src="src/img/logo.png" class="transition-all duration-300 cursor-pointer:scal" />
+            </a>
+            <div class="-mr-2 flex items-center md:hidden">
+              <button type="button transition-all duration-300 cursor-pointer:scal" id="main-menu"
+                aria-label="Main menu" aria-haspopup="true"
+                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                  </path>
+                </svg>
               </button>
-          </div>
-      </nav>
-   </header>
-     <!-- this is for hero section -->
-     <section id="home" class="py-5 bg-[#FAFAFA] dark:bg-[#181C14]">
-      <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
-          <div class="mb-14 lg:mb-0 lg:w-1/2">
-              <h3 class="text-bold text-center lg:text-left font-black transition-all duration-300 cursor-pointer:scal dark:text-white">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h3>
-              <div class="container mx-auto md:mx-0">
-                  <h1 class="py-3 my-1 mb-4 text-4xl md:text-6xl font-black sm:text-2xl font-sans text-center md:text-left dark:text-white">
-                      Google <br>
-                      <span class="text-[#F44335] underline">IT Support </span><br> Certificate
-                  </h1>
-              </div>
-              <p class="font-inter max-w-xl my-3 text-center text-[#072125] lg:text-left lg:max-w-md dark:text-white">
-                  This is your path to a career in IT. In this program, you’ll learn in- demand skills with no degree or experience required.  
-              </p>
-            <!-- Numbers -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8 mt-10">
-              <div class="text-2xl sm:text-3xl font-semibold">
-                <p class="text-[#00FF84]">438</p>
-                <p class="text-sm text-[#2D3142]">Videos</p>
-              </div>
-              <div class="text-2xl sm:text-3xl font-semibold">
-                <p class="text-[#00FF84]">151</p>
-                <p class="text-sm text-[#2D3142]">Readings</p>
-              </div>
-              <div class="text-2xl sm:text-3xl font-semibold">
-                <p class="text-[#00FF84]">108</p>
-                <p class="text-sm text-[#2D3142]">Quizzes</p>
-              </div>
-              <div class="text-2xl sm:text-3xl font-semibold">
-                <p class="text-[#00FF84]">24</p>
-                <p class="text-sm text-[#2D3142]">Exercises</p>
-              </div>
-              <div class="text-2xl sm:text-3xl font-semibold">
-                <p class="text-[#00FF84]">4</p>
-                <p class="text-sm text-[#2D3142]">Assignments</p>
-              </div>
             </div>
-              <!-- buttons -->
-              <div class="flex justify-center mt-14 lg:justify-start">
-                  <button type="button" class="text-white bg-[#F44335] font-medium rounded-lg text-md px-8 py-4 text-center hover:bg-[#F44335] hover:drop-shadow-md  ease-in-out transition-all duration-300 cursor-pointer:scal">Sign up</button>
-                  <button type="button" class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition duration-300 ease-in-out">Learn more</button>
-              </div>
           </div>
-          <div class="lg:w-1/2">
-              <img class="ml-auto transition-all duration-300 cursor-pointer:scal" src="src/img/hero.png" alt="" />
+        </div>
+        <div class="hidden md:flex md:space-x-10 transition-all duration-300 cursor-pointer:scal">
+          <a href="#features"
+            class="font-medium text-gray-500 hover:text-[#F44335]  ease-in-out dark:text-white transition-all duration-300 cursor-pointer:scal">Home</a>
+          <a href="#pricing"
+            class="font-medium text-gray-500 hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">About</a>
+          <a href="/blog"
+            class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">Upskill</a>
+          <a href="https://docs.pingping.io" target="_blank"
+            class="font-medium text-gray-500 hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">Contact
+            us</a>
+        </div>
+        <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0 gap-3">
+          <span class="inline-flex rounded-md shadow ml-2 gap-4">
+            <a href="#">
+              <button
+                class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#C3352A] transition hover:scale-105 hover:translate-x-1">Personalize
+                News</button>
+            </a>
+          </span>
+          <button id="switch">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8  dark:stroke-white hover:scale-105 transition duration-300 dark:bg-[#181C14] ">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- this is for hero section -->
+    <section id="home" class="py-5 bg-[#FAFAFA] dark:bg-[#181C14]">
+      <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
+        <div class="mb-14 lg:mb-0 lg:w-1/2">
+          <h3
+            class="text-bold text-center lg:text-left font-black transition-all duration-300 cursor-pointer:scal dark:text-white">
+            Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h3>
+          <div class="container mx-auto md:mx-0">
+            <h1
+              class="py-3 my-1 mb-4 text-4xl md:text-6xl font-black sm:text-2xl font-sans text-center md:text-left dark:text-white">
+              Google <br>
+              <span class="text-[#F44335] underline">IT Support </span><br> Certificate
+            </h1>
           </div>
+          <p class="font-inter max-w-xl my-3 text-center text-[#072125] lg:text-left lg:max-w-md dark:text-white"> This
+            is your path to a career in IT. In this program, you’ll learn in- demand skills with no degree or experience
+            required. </p>
+          <!-- Numbers -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8 mt-10">
+            <div class="text-2xl sm:text-3xl font-semibold">
+              <p class="text-[#00FF84]">438</p>
+              <p class="text-sm text-[#2D3142]">Videos</p>
+            </div>
+            <div class="text-2xl sm:text-3xl font-semibold">
+              <p class="text-[#00FF84]">151</p>
+              <p class="text-sm text-[#2D3142]">Readings</p>
+            </div>
+            <div class="text-2xl sm:text-3xl font-semibold">
+              <p class="text-[#00FF84]">108</p>
+              <p class="text-sm text-[#2D3142]">Quizzes</p>
+            </div>
+            <div class="text-2xl sm:text-3xl font-semibold">
+              <p class="text-[#00FF84]">24</p>
+              <p class="text-sm text-[#2D3142]">Exercises</p>
+            </div>
+            <div class="text-2xl sm:text-3xl font-semibold">
+              <p class="text-[#00FF84]">4</p>
+              <p class="text-sm text-[#2D3142]">Assignments</p>
+            </div>
+          </div>
+          <!-- buttons -->
+          <div class="flex justify-center mt-14 lg:justify-start">
+            <button type="button"
+              class="text-white bg-[#F44335] font-medium rounded-lg text-md px-8 py-4 text-center hover:bg-[#F44335] hover:drop-shadow-md  ease-in-out transition-all duration-300 cursor-pointer:scal">Sign
+              up</button>
+            <button type="button"
+              class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition duration-300 ease-in-out">Learn
+              more</button>
+          </div>
+        </div>
+        <div class="lg:w-1/2">
+          <img class="ml-auto transition-all duration-300 cursor-pointer:scal" src="src/img/hero.png" alt="" />
+        </div>
       </div>
-  </section>
-
+    </section>
+    <!-- our connections -->
+    <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-2 pt-5">
+      <div class="col-span-12 md:col-span-3 flex items-center justify-center md:border-r lg:border-r border-gray-300">
+        <p class="text-center flex items-center justify-center h-full dark:text-white">Pave your path to career success
+          by gaining a professional Google certificate with the support of C4U</p>
+      </div>
+      <div class="col-span-12 md:col-span-3 flex items-center justify-center md:border-r lg:border-r border-gray-300">
+        <img src="src/img/Google.png" alt="Image 1" class="w-40 h-auto">
+      </div>
+      <div class="col-span-12 md:col-span-3 flex items-center justify-center md:border-r lg:border-r border-gray-300">
+        <img src="src/img/Work & Pensions.png" alt="Image 2" class="w-40 h-auto">
+      </div>
+      <div class="col-span-12 md:col-span-3 flex items-center justify-center">
+        <img src="src/img/logo.png" alt="Image 3" class="w-40 h-auto">
+      </div>
+    </section>
 
 </body>
 </html>
