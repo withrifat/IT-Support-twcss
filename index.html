@@ -30,13 +30,13 @@
         </div>
         <div class="hidden md:flex md:space-x-10 transition-all duration-300 cursor-pointer:scal">
           <a href="#features"
-            class="font-medium text-gray-500 hover:text-[#F44335]  ease-in-out dark:text-white transition-all duration-300 cursor-pointer:scal">Home</a>
+            class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335]  ease-in-out dark:text-white transition-all duration-300 cursor-pointer:scal hover:scale-105">Home</a>
           <a href="#pricing"
-            class="font-medium text-gray-500 hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">About</a>
+            class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335] transition duration-150 hover:scale-105 ease-in-out dark:text-white">About</a>
           <a href="/blog"
-            class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">Upskill</a>
+            class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out hover:underline hover:scale-105 hover:decoration-[#f44335] ">Upskill</a>
           <a href="https://docs.pingping.io" target="_blank"
-            class="font-medium text-gray-500 hover:text-[#F44335] transition duration-150 ease-in-out dark:text-white">Contact
+            class="font-medium hover:underline hover:decoration-[#f44335] text-gray-500 hover:text-[#F44335] hover:scale-105 transition duration-150 ease-in-out dark:text-white">Contact
             us</a>
         </div>
         <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0 gap-3">
@@ -50,7 +50,7 @@
           <button id="switch">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor"
-              class="size-8  dark:stroke-white hover:scale-105 transition duration-300 dark:bg-[#181C14] ">
+              class="size-8  dark:stroke-white transition hover:scale-105 hover:translate-y-1 dark:bg-[#181C14] ">
               <path stroke-linecap="round" stroke-linejoin="round"
                 d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
             </svg>
@@ -79,32 +79,32 @@
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8 mt-10">
             <div class="text-2xl sm:text-3xl font-semibold">
               <p class="text-[#00FF84]">438</p>
-              <p class="text-sm text-[#2D3142]">Videos</p>
+              <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Videos</p>
             </div>
             <div class="text-2xl sm:text-3xl font-semibold">
               <p class="text-[#00FF84]">151</p>
-              <p class="text-sm text-[#2D3142]">Readings</p>
+              <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Readings</p>
             </div>
             <div class="text-2xl sm:text-3xl font-semibold">
               <p class="text-[#00FF84]">108</p>
-              <p class="text-sm text-[#2D3142]">Quizzes</p>
+              <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Quizzes</p>
             </div>
             <div class="text-2xl sm:text-3xl font-semibold">
               <p class="text-[#00FF84]">24</p>
-              <p class="text-sm text-[#2D3142]">Exercises</p>
+              <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Exercises</p>
             </div>
             <div class="text-2xl sm:text-3xl font-semibold">
               <p class="text-[#00FF84]">4</p>
-              <p class="text-sm text-[#2D3142]">Assignments</p>
+              <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Assignments</p>
             </div>
           </div>
           <!-- buttons -->
           <div class="flex justify-center mt-14 lg:justify-start">
             <button type="button"
-              class="text-white bg-[#F44335] font-medium rounded-lg text-md px-8 py-4 text-center hover:bg-[#F44335] hover:drop-shadow-md  ease-in-out transition-all duration-300 cursor-pointer:scal">Sign
+              class="text-white bg-[#F44335] font-medium rounded-lg text-md px-8 py-4 text-center hover:bg-[#F44335] hover:drop-shadow-md  ease-in-out transition hover:scale-105 hover:translate-y-1 cursor-pointer:scal">Sign
               up</button>
             <button type="button"
-              class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition duration-300 ease-in-out">Learn
+              class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition hover:scale-105 hover:translate-y-1 ease-in-out">Learn
               more</button>
           </div>
         </div>
@@ -283,7 +283,18 @@
 <section class="">
 
 </section>
-
+  <!-- testimonial section -->
+<section class="flex flex-col md:flex-row items-center md:items-start md:px-10 px-4 md:py-32 py-20 bg-no-repeat bg-blur-sm bg-cover" style="background-image: url('src/img/grup.png');">
+  <div class="bg-[#FFFFFF] p-8 ml-14 md:ml-20 rounded-lg shadow-lg w-full max-w-xl md:mx-0 mx-auto dark:bg-black ">
+    <img src="src/img/“.png" alt="" class="py-5">
+    <p class="text-black text-[26px] font-semibold dark:text-white mb-4">
+      I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do
+    </p>
+    <p class="text-[#F9CCC7] text-base font-light">
+      Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate
+    </p>
+  </div>
+</section>
 <!-- Footer part -->
 <footer class="text-black  body-font">
   <div

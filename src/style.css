@@ -4,6 +4,17 @@
 
 @layer utilities{
   .tag{
-      @apply inline-block m-1 my-1 px-3 font-semibold border    border-[#F44335] rounded-full  py-1 cursor-pointer hover:bg-[#F9CCC7] hover:text-white  duration-300   dark:text-white transition-all scale-105  ;
+      @apply inline-block m-1 my-1 px-3 font-semibold border    border-[#F44335] rounded-full  py-1 cursor-pointer hover:bg-[#F9CCC7] hover:text-white  duration-300   dark:text-white transition hover:scale-105 hover:translate-y-1 ;
   }
 }  
+@layer base {
+  img {
+    @apply transition duration-300 cursor-pointer hover:scale-105 hover:opacity-80 ;
+  }
+  body {
+    @apply font-jakarta;
+  }
+}
+@theme {
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
