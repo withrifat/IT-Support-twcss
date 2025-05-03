@@ -1,3 +1,9 @@
 @import "tailwindcss";
 
 
+/* custome utilitys  */
+/* @layer utilities{
+  .tag{
+      @apply inline-block m-2 my-4 px-3 font-semibold border border-[]   border-[#F9CCC7] rounded-full  py-1 cursor-pointer hover:bg-[#F9CCC7] hover:text-white  duration-300  transition-all  dark:text-white  ;
+  }
+}  */
