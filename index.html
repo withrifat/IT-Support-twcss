@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark scroll-smooth" id="htmlTag">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <title>IT | Support</title>
   </head>
-  <body>
+  <body class="dark:bg-[#181C14] bg-[#FAFAFA]">
     <!-- this is nav section -->
     <header class="bg-white dark:bg-[#181C14]">
       <nav
@@ -130,11 +130,11 @@
       </div>
     </section>
     <!-- learning section -->
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 bg-[#FFFFFF] dark:bg-[#181C14] body-font">
       <div class="container mx-auto px-5 py-24">
         <div class="flex flex-col md:flex-row md:space-x-6">
           <!-- Left Section -->
-          <div class="md:w-1/2 w-full bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col">
+          <div class="md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-lg shadow-lg flex flex-col">
             <h2 class="text-3xl md:text-4xl font-black font-sans mb-6 py-4 border-b-2 border-[#F9CCC7] dark:text-white">
               What you will learn </h2>
             <div class="space-y-4 py-3 flex-grow">
@@ -161,7 +161,7 @@
             </div>
           </div>
           <!-- Right Section -->
-          <div class="md:w-1/2 w-full bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col mt-10 md:mt-0">
+          <div class="md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-lg shadow-lg flex flex-col mt-10 md:mt-0">
             <div class="h-64 w-full rounded-lg overflow-hidden mb-6">
               <img alt="content" class="object-cover object-center w-full h-full" src="src/img/IT_social 1.png">
             </div>
@@ -185,12 +185,12 @@
       </div>
     </section>
     <!-- job with certificate -->
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600  bg-[#FFFFFF] dark:bg-[#181C14] body-font">
       <div class="container mx-auto px-5 py-24">
         <div class="flex flex-col md:flex-row md:space-x-6">
           <!-- Left Section -->
-          <div class="md:w-1/2 w-full bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col">
-            <h2 class="text-3xl md:text-4xl font-black font-sans mb-6 border-b-2 border-[#F9CCC7] dark:text-white"> Jobs
+          <div class="md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-lg shadow-lg flex flex-col">
+            <h2 class="text-3xl md:text-4xl font-black font-sans mb-6 border-b-2 border-[#F9CCC7] pb-5 dark:text-white"> Jobs
               Associated with Certificate </h2>
             <div class="flex flex-col md:flex-row gap-6 flex-grow">
               <!-- First Column -->
@@ -243,15 +243,15 @@
           </div>
           <!-- Right Section -->
           <div
-            class="md:w-1/2 w-full bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg mt-10 md:mt-0 flex items-center justify-center">
+            class="md:w-1/2 w-full bg-white dark:bg-black  rounded-lg shadow-lg mt-10 md:mt-0 flex items-center justify-center">
             <img src="src/img/IT Support 1.png" alt="IT Support" class="rounded-lg w-full h-auto object-cover">
           </div>
         </div>
       </div>
     </section>
 
-  <!-- certificate  section -->
-  <section class="text-gray-600 body-font">
+  <!-------------- certificate  section ----------------------->
+  <section class="text-gray-600 bg-white dark:bg-black body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <div class="lg:w-2/3  sm:items-center items-start mx-auto">
         <h1 class="text-5xl md:text-5xl font-bold mb-6 leading-tight py-5 dark:text-white">
@@ -279,8 +279,17 @@
     <img src="src/img/badge.png" alt="" class="transition-all duration-300 cursor-pointer:scal">
     </div>
    </section>
-  
+<!---------------------------------5 course 5 page ----------------------------->
+<section class="">
+
+</section>
 
 
+  <script>
+    const htmlTag = document.getElementById("htmlTag");
+    document.getElementById("switch").addEventListener("click", function () {
+      htmlTag.classList.toggle("dark");
+    });
+  </script>
   </body>
 </html>
