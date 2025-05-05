@@ -435,6 +435,13 @@
         </div>
       </div>
     </footer>
-    <script src="src/main.js"></script>
+    <script>
+      // for dark mode code 
+      document.documentElement.classList.remove('dark');
+      document.getElementById("switch").addEventListener("click", function () {
+        document.documentElement.classList.toggle("dark");
+      });
+
+    </script>
   </body>
 </html>
