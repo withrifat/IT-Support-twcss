@@ -281,20 +281,50 @@
    </section>
 <!---------------------------------5 course 5 page ----------------------------->
 <section class="">
+<!-- All Courses Section -->
+<section class="flex flex-col items-center space-y-8 px-4 lg:px-10 py-10">
+  <!-- Image 1 -->
+  <div class="w-full h-screen flex items-center justify-center">
+    <img src="src//img/img 1.png" alt="Image 1" class="w-full h-full object-contain transition-all duration-300 cursor-pointer:scal">
+  </div>
+  <img src="src/img/Connector Vector.png" alt="">
+  <!-- Image 2 -->
+  <div class="w-full h-screen flex items-center justify-center">
+    <img src="src/img/img 2.png" alt="Image 2" class="w-full h-full object-contain transition-all duration-300 cursor-pointer:scal">
+  </div>
+  <img src="src/img/Connector Vector.png" alt="">
 
+  <!-- Image 3 -->
+  <div class="w-full h-screen flex items-center justify-center">
+    <img src="src/img/img 3.png" alt="Image 3" class="w-full h-full object-contain transition-all duration-300 cursor-pointer:scal">
+  </div>
+  <img src="src/img/Connector Vector.png" alt="">
+
+  <!-- Image 4 -->
+  <div class="w-full h-screen flex items-center justify-center">
+    <img src="src//img/img 4.png" alt="Image 4" class="w-full h-full object-contain transition-all duration-300 cursor-pointer:scal">
+  </div>
+  <img src="src/img/Connector Vector.png" alt="">
+
+  <!-- Image 5 -->
+  <div class="w-full h-screen flex items-center justify-center">
+    <img src="src//img/img 5.png" alt="Image 5" class="w-full h-full object-contain transition-all duration-300 cursor-pointer:scal">
+  </div>
 </section>
-  <!-- testimonial section -->
-<section class="flex flex-col md:flex-row items-center md:items-start md:px-10 px-4 md:py-32 py-20 bg-no-repeat bg-blur-sm bg-cover" style="background-image: url('src/img/grup.png');">
-  <div class="bg-[#FFFFFF] p-8 ml-14 md:ml-20 rounded-lg shadow-lg w-full max-w-xl md:mx-0 mx-auto dark:bg-black ">
-    <img src="src/img/“.png" alt="" class="py-5">
-    <p class="text-black text-[26px] font-semibold dark:text-white mb-4">
+</section>
+<!-- testimonial section -->
+<section class="flex flex-col md:flex-row items-center md:items-start md:px-10 px-4 md:py-32 py-20 bg-no-repeat bg-blur-sm bg-cover bg-center" style="background-image: url('src/img/grup.png');">
+  <div class="bg-[#FFFFFF] p-6 sm:p-8 ml-0 md:ml-20 rounded-lg shadow-lg w-full sm:max-w-md md:max-w-xl mx-auto dark:bg-black">
+    <img src="src/img/“.png" alt="" class="py-4 sm:py-5 w-10 sm:w-12">
+    <p class="text-black text-lg sm:text-xl md:text-[26px] font-semibold dark:text-white mb-4">
       I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do
     </p>
-    <p class="text-[#F9CCC7] text-base font-light">
+    <p class="text-[#F9CCC7] text-sm sm:text-base font-light">
       Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate
     </p>
   </div>
 </section>
+
 <!-- Footer part -->
 <footer class="text-black  body-font">
   <div
@@ -395,12 +425,12 @@
     </div>
   </div>
 </footer>
-
   <script>
-    const htmlTag = document.getElementById("htmlTag");
+    document.documentElement.classList.remove('dark');
     document.getElementById("switch").addEventListener("click", function () {
-      htmlTag.classList.toggle("dark");
+      document.documentElement.classList.toggle("dark");
     });
   </script>
+  
   </body>
 </html>
